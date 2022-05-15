@@ -1,0 +1,5 @@
+/usr/share/cutefish-debinstaller/translations/en_US.qm
+/usr/share/cutefish-debinstaller/translations/fr_FR.qm
+/usr/share/cutefish-debinstaller/translations/zh_CN.qm
+/usr/bin/cutefish-debinstaller
+/usr/share/applications/cutefish-debinstaller.desktop

@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+5855ad31fcbfd6f2dea8c7f4df41950a ../translations/en_US.ts
+240eea0ff655f0cf2bfb28ff1ccedb95 ../translations/fr_FR.ts
+f1d2527ce343aef234f8df9058c8c347 ../translations/zh_CN.ts
+4c04bea1d7322bc0116e40c2e102834f CMakeFiles/cutefish-debinstaller_autogen
+7fe2bea13de820d01b5a54e8a94d9acb CMakeFiles/translations
+aa53ce7050620928f66af43ea958fc56 cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp
+17a267ddad4fbcdafc938fa5e3b3113c en_US.qm
+0e6bcb755e9488f98157daf6ccce1476 fr_FR.qm
+31a5e98bda2ca940493216e7904df496 zh_CN.qm
