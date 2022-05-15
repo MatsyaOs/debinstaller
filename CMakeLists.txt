@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(cutefish-debinstaller LANGUAGES CXX)
+project(matsya-debinstaller LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -27,11 +27,11 @@ set(PROJECT_SOURCES
         qml.qrc
 )
 
-add_executable(cutefish-debinstaller
+add_executable(matsya-debinstaller
   ${PROJECT_SOURCES}
 )
 
-target_link_libraries(cutefish-debinstaller
+target_link_libraries(matsya-debinstaller
   PRIVATE
   Qt5::Core
   Qt5::Widgets
@@ -43,12 +43,12 @@ target_link_libraries(cutefish-debinstaller
 file(GLOB TS_FILES translations/*.ts)
 qt5_create_translation(QM_FILES ${TS_FILES})
 add_custom_target(translations DEPENDS ${QM_FILES} SOURCES ${TS_FILES})
-add_dependencies(cutefish-debinstaller translations)
+add_dependencies(matsya-debinstaller translations)
 
-install(FILES ${QM_FILES} DESTINATION /usr/share/cutefish-debinstaller/translations)
+install(FILES ${QM_FILES} DESTINATION /usr/share/matsya-debinstaller/translations)
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES
-    cutefish-debinstaller.desktop
+    matsya-debinstaller.desktop
     DESTINATION /usr/share/applications/
     COMPONENT Runtime
 )

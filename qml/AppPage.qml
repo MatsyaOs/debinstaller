@@ -1,7 +1,5 @@
 /*
- * Copyright (C) 2021 Cutefish Technology Co., Ltd.
- *
- * Author:     Reion Wong <reion@cutefishos.com>
+ * Copyright
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,8 +20,8 @@ import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
-import FishUI 1.0 as FishUI
-import Cutefish.DebInstaller 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.DebInstaller 1.0
 
 Item {
     Component {
@@ -32,11 +30,11 @@ Item {
         Item {
             ColumnLayout {
                 anchors.fill: parent
-                anchors.margins: FishUI.Units.largeSpacing
+                anchors.margins: MatsyaUI.Units.largeSpacing
 
                 GridLayout {
                     columns: 2
-                    columnSpacing: FishUI.Units.largeSpacing * 2
+                    columnSpacing: MatsyaUI.Units.largeSpacing * 2
 
                     Label {
                         text: qsTr("Maintainer")
@@ -58,7 +56,7 @@ Item {
                     Label {
                         id: homePageLabel
                         text: "<a href=\"%1\">%1</a>".arg(Installer.homePage)
-                        linkColor: FishUI.Theme.highlightColor
+                        linkColor: MatsyaUI.Theme.highlightColor
                         visible: Installer.homePage
                         Layout.fillWidth: true
                         elide: Qt.ElideRight
@@ -103,9 +101,9 @@ Item {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.leftMargin: FishUI.Units.largeSpacing
-        anchors.rightMargin: FishUI.Units.largeSpacing
-        anchors.bottomMargin: FishUI.Units.largeSpacing
+        anchors.leftMargin: MatsyaUI.Units.largeSpacing
+        anchors.rightMargin: MatsyaUI.Units.largeSpacing
+        anchors.bottomMargin: MatsyaUI.Units.largeSpacing
 
         Image {
             width: 64
@@ -127,20 +125,20 @@ Item {
             text: qsTr("Version: ") + Installer.version
                   + (Installer.isInstalled && Installer.version === Installer.installedVersion ? " (%1) ".arg(qsTr("Installed")) : "")
                   + (Installer.installedVersion && Installer.version !== Installer.installedVersion ? qsTr(" (Installed Version: %1) ").arg(Installer.installedVersion) : "")
-            color: FishUI.Theme.disabledTextColor
+            color: MatsyaUI.Theme.disabledTextColor
             Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
         }
 
         Label {
             id: status
             text: Installer.preInstallMessage
-            color: FishUI.Theme.disabledTextColor
+            color: MatsyaUI.Theme.disabledTextColor
             Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
             visible: text
         }
 
         Item {
-            height: FishUI.Units.smallSpacing
+            height: MatsyaUI.Units.smallSpacing
         }
 
 //        TabBar {
@@ -161,7 +159,7 @@ Item {
         }
 
         RowLayout {
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             Button {
                 Layout.fillWidth: true

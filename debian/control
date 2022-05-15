@@ -1,7 +1,7 @@
-Source: cutefish-debinstaller
+Source: matsya-debinstaller
 Section: devel
 Priority: optional
-Maintainer: CutefishOS <support@cutefishos.com>
+Maintainer: MatsyaOS <support@matsyaos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -13,9 +13,9 @@ Build-Depends: cmake,
                libqapt-dev,
                libapt-pkg-dev
 Standards-Version: 4.5.0
-Homepage: https://cutefishos.com/
+Homepage: https://matsyaos.com/
 
-Package: cutefish-debinstaller
+Package: matsya-debinstaller
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
@@ -28,4 +28,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CutefishOS Deb Installer
+Description: MatsyaOS Deb Installer

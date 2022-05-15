@@ -22,17 +22,17 @@ import QtQuick.Window 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
 import QtQuick.Dialogs 1.2
-import FishUI 1.0 as FishUI
-import Cutefish.DebInstaller 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.DebInstaller 1.0
 
 Item {
     id: control
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.leftMargin: FishUI.Units.largeSpacing
-        anchors.rightMargin: FishUI.Units.largeSpacing
-        anchors.bottomMargin: FishUI.Units.largeSpacing
+        anchors.leftMargin: MatsyaUI.Units.largeSpacing
+        anchors.rightMargin: MatsyaUI.Units.largeSpacing
+        anchors.bottomMargin: MatsyaUI.Units.largeSpacing
 
         RowLayout {
             Item { Layout.fillWidth: true }
@@ -49,7 +49,7 @@ Item {
                     visible: Installer.status != DebInstaller.Installing
                 }
 
-                FishUI.BusyIndicator {
+                MatsyaUI.BusyIndicator {
                     anchors.fill: parent
                     width: 30
                     height: 30
@@ -65,7 +65,7 @@ Item {
         }
 
         Item {
-            height: FishUI.Units.largeSpacing
+            height: MatsyaUI.Units.largeSpacing
         }
 
         ScrollView {

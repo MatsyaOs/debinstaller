@@ -1,6 +1,6 @@
 # Deb Installer
 
-Package Installer for CutefishOS.
+Package Installer for MatsyaOS.
 
 ## Dependencies
 
