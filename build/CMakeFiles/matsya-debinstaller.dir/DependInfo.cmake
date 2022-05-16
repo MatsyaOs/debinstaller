@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o"
-  "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/mocs_compilation.cpp" "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.cpp" "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller.dir/src/debinstaller.cpp.o"
-  "/home/tokyo/clone/cuteclone/debinstaller/src/main.cpp" "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller.dir/src/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+  "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/mocs_compilation.cpp.o"
+  "/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.cpp" "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller.dir/src/debinstaller.cpp.o"
+  "/home/tokyo/Documents/GitHub/debinstaller/src/main.cpp" "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,7 +27,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "cutefish-debinstaller_autogen/include"
+  "matsya-debinstaller_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

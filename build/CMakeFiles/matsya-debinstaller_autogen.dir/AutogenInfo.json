@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/cuteclone/debinstaller/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/cuteclone/debinstaller/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/debinstaller",
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/debinstaller/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/debinstaller/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/debinstaller",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/clone/cuteclone/debinstaller/CMakeLists.txt",
+		"/home/tokyo/Documents/GitHub/debinstaller/CMakeLists.txt",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystem.cmake.in",
-		"/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
+		"/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -54,7 +54,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake",
@@ -80,7 +80,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -158,25 +158,25 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/QApt/QAptTargets.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/QApt/QAptTargets-debian.cmake",
-		"/home/tokyo/clone/cuteclone/debinstaller/cmake/FindAptPkg.cmake",
+		"/home/tokyo/Documents/GitHub/debinstaller/cmake/FindAptPkg.cmake",
 		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
-		"/home/tokyo/clone/cuteclone/debinstaller/qml.qrc"
+		"/home/tokyo/Documents/GitHub/debinstaller/qml.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/debinstaller",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/debinstaller",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h",
+			"/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h",
 			"MU",
 			"UVLADIE3JM/moc_debinstaller.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -197,8 +197,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/clone/cuteclone/debinstaller/build",
-		"/home/tokyo/clone/cuteclone/debinstaller",
+		"/home/tokyo/Documents/GitHub/debinstaller/build",
+		"/home/tokyo/Documents/GitHub/debinstaller",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -227,21 +227,24 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles/cutefish-debinstaller_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/debinstaller/src/main.cpp", "MU" ]
+		[
+			"/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.cpp",
+			"MU"
+		],
+		[ "/home/tokyo/Documents/GitHub/debinstaller/src/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

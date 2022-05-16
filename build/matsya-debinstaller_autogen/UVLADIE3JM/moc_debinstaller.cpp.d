@@ -1,5 +1,5 @@
-/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp: /home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h \
-  /home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp: /home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h \
+  /home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/moc_predefs.h \
   /usr/include/QApt/DebFile \
   /usr/include/QApt/Globals \
   /usr/include/QApt/Package \

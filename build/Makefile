@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/debinstaller
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/debinstaller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/debinstaller/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/debinstaller/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles /home/tokyo/clone/cuteclone/debinstaller/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles /home/tokyo/Documents/GitHub/debinstaller/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/debinstaller/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,84 +189,84 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-debinstaller
+# Target rules for targets named matsya-debinstaller
 
 # Build rule for target.
-cutefish-debinstaller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-debinstaller
-.PHONY : cutefish-debinstaller
+matsya-debinstaller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-debinstaller
+.PHONY : matsya-debinstaller
 
 # fast build rule for target.
-cutefish-debinstaller/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/build
-.PHONY : cutefish-debinstaller/fast
+matsya-debinstaller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/build
+.PHONY : matsya-debinstaller/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-debinstaller_autogen
+# Target rules for targets named matsya-debinstaller_autogen
 
 # Build rule for target.
-cutefish-debinstaller_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-debinstaller_autogen
-.PHONY : cutefish-debinstaller_autogen
+matsya-debinstaller_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-debinstaller_autogen
+.PHONY : matsya-debinstaller_autogen
 
 # fast build rule for target.
-cutefish-debinstaller_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller_autogen.dir/build.make CMakeFiles/cutefish-debinstaller_autogen.dir/build
-.PHONY : cutefish-debinstaller_autogen/fast
+matsya-debinstaller_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller_autogen.dir/build.make CMakeFiles/matsya-debinstaller_autogen.dir/build
+.PHONY : matsya-debinstaller_autogen/fast
 
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.o: cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.o: matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
 
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.i: cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.s: cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-debinstaller_autogen/mocs_compilation.o: cutefish-debinstaller_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.o
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.o
 
 # target to build an object file
-cutefish-debinstaller_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.cpp.o
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.o
 
-cutefish-debinstaller_autogen/mocs_compilation.i: cutefish-debinstaller_autogen/mocs_compilation.cpp.i
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.i: matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
 
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.i
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.i
 
 # target to preprocess a source file
-cutefish-debinstaller_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.cpp.i
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.i
 
-cutefish-debinstaller_autogen/mocs_compilation.s: cutefish-debinstaller_autogen/mocs_compilation.cpp.s
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.s: matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
 
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.s
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.s
 
 # target to generate assembly for a file
-cutefish-debinstaller_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/cutefish-debinstaller_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-debinstaller_autogen/mocs_compilation.cpp.s
+matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-debinstaller_autogen/mocs_compilation.o: matsya-debinstaller_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-debinstaller_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.cpp.o
+
+matsya-debinstaller_autogen/mocs_compilation.i: matsya-debinstaller_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-debinstaller_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.cpp.i
+
+matsya-debinstaller_autogen/mocs_compilation.s: matsya-debinstaller_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-debinstaller_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/matsya-debinstaller_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-debinstaller_autogen/mocs_compilation.cpp.s
 
 src/debinstaller.o: src/debinstaller.cpp.o
 
@@ -274,7 +274,7 @@ src/debinstaller.o: src/debinstaller.cpp.o
 
 # target to build an object file
 src/debinstaller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/debinstaller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/debinstaller.cpp.o
 .PHONY : src/debinstaller.cpp.o
 
 src/debinstaller.i: src/debinstaller.cpp.i
@@ -283,7 +283,7 @@ src/debinstaller.i: src/debinstaller.cpp.i
 
 # target to preprocess a source file
 src/debinstaller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/debinstaller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/debinstaller.cpp.i
 .PHONY : src/debinstaller.cpp.i
 
 src/debinstaller.s: src/debinstaller.cpp.s
@@ -292,7 +292,7 @@ src/debinstaller.s: src/debinstaller.cpp.s
 
 # target to generate assembly for a file
 src/debinstaller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/debinstaller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/debinstaller.cpp.s
 .PHONY : src/debinstaller.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -301,7 +301,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -310,7 +310,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -319,7 +319,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-debinstaller.dir/build.make CMakeFiles/cutefish-debinstaller.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-debinstaller.dir/build.make CMakeFiles/matsya-debinstaller.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -334,15 +334,15 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-debinstaller_autogen"
+	@echo "... matsya-debinstaller_autogen"
 	@echo "... translations"
-	@echo "... cutefish-debinstaller"
-	@echo "... cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-debinstaller_autogen/mocs_compilation.o"
-	@echo "... cutefish-debinstaller_autogen/mocs_compilation.i"
-	@echo "... cutefish-debinstaller_autogen/mocs_compilation.s"
+	@echo "... matsya-debinstaller"
+	@echo "... matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-debinstaller_autogen/mocs_compilation.o"
+	@echo "... matsya-debinstaller_autogen/mocs_compilation.i"
+	@echo "... matsya-debinstaller_autogen/mocs_compilation.s"
 	@echo "... src/debinstaller.o"
 	@echo "... src/debinstaller.i"
 	@echo "... src/debinstaller.s"

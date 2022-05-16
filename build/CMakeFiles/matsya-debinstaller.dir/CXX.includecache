@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp
+/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp
 
-/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp
+/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp
 memory
 -
 ../../../src/debinstaller.h
-/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h
+/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/mocs_compilation.cpp
 UVLADIE3JM/moc_debinstaller.cpp
-/home/tokyo/clone/cuteclone/debinstaller/build/cutefish-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp
+/home/tokyo/Documents/GitHub/debinstaller/build/matsya-debinstaller_autogen/UVLADIE3JM/moc_debinstaller.cpp
 
-/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.cpp
+/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.cpp
 debinstaller.h
-/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h
+/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h
 QFileInfo
 -
 QMimeDatabase
@@ -46,7 +46,7 @@ QThread
 QDebug
 -
 
-/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h
+/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h
 QObject
 -
 QApt/DebFile
@@ -58,7 +58,7 @@ QApt/Package
 QApt/Transaction
 -
 
-/home/tokyo/clone/cuteclone/debinstaller/src/main.cpp
+/home/tokyo/Documents/GitHub/debinstaller/src/main.cpp
 QApplication
 -
 QQmlApplicationEngine
@@ -72,7 +72,7 @@ QTranslator
 QFile
 -
 debinstaller.h
-/home/tokyo/clone/cuteclone/debinstaller/src/debinstaller.h
+/home/tokyo/Documents/GitHub/debinstaller/src/debinstaller.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QCommandLineParser
 qcommandlineparser.h

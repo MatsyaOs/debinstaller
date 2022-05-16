@@ -1,10 +1,10 @@
 # Hashes of file build rules.
-5855ad31fcbfd6f2dea8c7f4df41950a ../translations/en_US.ts
-240eea0ff655f0cf2bfb28ff1ccedb95 ../translations/fr_FR.ts
-f1d2527ce343aef234f8df9058c8c347 ../translations/zh_CN.ts
-4c04bea1d7322bc0116e40c2e102834f CMakeFiles/cutefish-debinstaller_autogen
-7fe2bea13de820d01b5a54e8a94d9acb CMakeFiles/translations
-aa53ce7050620928f66af43ea958fc56 cutefish-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp
-17a267ddad4fbcdafc938fa5e3b3113c en_US.qm
-0e6bcb755e9488f98157daf6ccce1476 fr_FR.qm
-31a5e98bda2ca940493216e7904df496 zh_CN.qm
+4815caeb1677224748e5038fd88571d8 ../translations/en_US.ts
+e0ecb52d748007b8ec234d65e836c2de ../translations/fr_FR.ts
+c8c7ffbe84135b2833e1b7a22690c776 ../translations/zh_CN.ts
+45ffa0164d4c343e8c0ebd62c45607d9 CMakeFiles/matsya-debinstaller_autogen
+1961a834b725e14b8016f7e4990e9714 CMakeFiles/translations
+dcfb908387614f78b78c99beea99776a en_US.qm
+d8aeb4cf837b934301def009696822b5 fr_FR.qm
+eda052bd4c5df781a243ce3eede6e2b7 matsya-debinstaller_autogen/EWIEGA46WW/qrc_qml.cpp
+39465b528eb9ed0210ea6f28b4c46176 zh_CN.qm
