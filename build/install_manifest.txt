@@ -1,5 +1,0 @@
-/usr/share/matsya-debinstaller/translations/en_US.qm
-/usr/share/matsya-debinstaller/translations/fr_FR.qm
-/usr/share/matsya-debinstaller/translations/zh_CN.qm
-/usr/bin/matsya-debinstaller
-/usr/share/applications/matsya-debinstaller.desktop

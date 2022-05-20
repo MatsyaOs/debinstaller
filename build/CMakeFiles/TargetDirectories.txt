@@ -1,9 +1,0 @@
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/install/strip.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/install/local.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/install.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/list_install_components.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/rebuild_cache.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/edit_cache.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/translations.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller.dir
-/home/tokyo/Documents/GitHub/debinstaller/build/CMakeFiles/matsya-debinstaller_autogen.dir
